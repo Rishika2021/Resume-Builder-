@@ -1,0 +1,73 @@
+.form{
+    display: flex;
+    flex-direction: row;
+    width:75vh;
+    margin: 5rem;
+    padding :4rem;
+    align-items: center;
+    justify-content: row-start;
+    background-color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;;
+}
+.form label{
+    color:#3090C7;
+    font-size: 1.1rem;
+    margin-bottom: 5rem;
+}
+button{
+    margin:1rem 0;
+    padding: 1rem;
+    color:white;
+    background-color: #3090C7;
+    border:none;
+    width:10rem;
+    font-size: 1.1rem;
+    border-radius: 1.5rem;
+}
+.form button{
+    justify-content: center;
+}
+.form-container h1{
+    color:#3090C7;
+}
+input{
+    width:200%;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+.form input{
+    margin: 1rem 0 0.5rem 0;
+    border: none;
+    padding: 1rem;
+}
+input[type="text"] {
+    width: 200px;
+}
+input:focus{
+    border:none;
+}
+textarea{
+    height:5rem;
+    width:6rem;
+}
+.f{
+    display: none;
+}
+.p{
+    display:block;
+}
+.form textarea{
+    margin: 1rem 0 0.5rem 0;
+    width: 100%;
+    border: none;
+    padding: 1rem;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.practice{
+    display: none;
+}
